@@ -1,0 +1,23 @@
+cabal-version:   3.12
+name:            bdd
+version:         0.1.0.0
+license:         NONE
+author:          Egor
+maintainer:      eg.tarasov2002@gmail.com
+build-type:      Simple
+extra-doc-files: CHANGELOG.md
+
+common warnings
+    ghc-options: -Wall
+
+executable bdd
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.17.2.1
+    hs-source-dirs:   app
+    default-language: Haskell2010
+    build-depends:
+        base >=4.7 && <5,
+        fgl,
+        graphviz,
+        text
