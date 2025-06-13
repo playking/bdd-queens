@@ -1,5 +1,5 @@
 {-|
-@file NQueensBDD.hs
+@file Main.hs
 @brief Модуль для решения задачи N ферзей с использованием BDD (Binary Decision Diagrams)
 @details Этот модуль содержит реализацию:
 - Типа данных BDD и базовых операций над ним
